@@ -75,4 +75,5 @@ int main() {
     /*
     * 3D MATRIX
     */
+    threeDArray();
 }
