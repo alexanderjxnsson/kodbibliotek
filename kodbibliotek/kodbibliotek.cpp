@@ -2,7 +2,7 @@
 using namespace std;
 //  Short commands(windows/visual studio community):
 /*  
-    Intendation: Mark several lines and tab to move to right, shift+tab to move to left.
+    Indentation: Mark several lines and tab to move to right, shift+tab to move to left.
 */
 int numberGenerator(int a)
 {
