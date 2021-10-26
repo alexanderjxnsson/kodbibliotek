@@ -58,10 +58,7 @@ void threeDArray() {
     }
 }
 string NumToText(int num) {
-    string NumToText[10] =
-    {
-        "zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine"
-    };
+    string NumToText[10] = { "zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine" };
     cout << NumToText[num];
     return NumToText[num];
 }
