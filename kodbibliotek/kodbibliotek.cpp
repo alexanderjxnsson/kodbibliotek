@@ -57,6 +57,15 @@ void threeDArray() {
         }
     }
 }
+string NumToText(int num) {
+    string NumToText[10] =
+    {
+        "zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine"
+    };
+    cout << NumToText[num];
+    return NumToText[num];
+}
+
 int main() {
     /* 
     * NUMBER GENERATOR
@@ -76,4 +85,12 @@ int main() {
     * 3D array
     */
     threeDArray();
+    /*
+    * Number to text
+    */
+    cout << "Enter number between 0-9\n";
+    int num;
+    cin >> num;
+    NumToText(num);
+
 }
