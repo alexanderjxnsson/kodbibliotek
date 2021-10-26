@@ -65,15 +65,15 @@ int main() {
     randomNum = numberGenerator(randomNum);
     cout << randomNum << endl;
     /*
-    * 1D MATRIX
+    * 1D array
     */
     oneDArray();
     /*
-    * 2D MATRIX
+    * 2D array
     */
     twoDArray();
     /*
-    * 3D MATRIX
+    * 3D array
     */
     threeDArray();
 }
