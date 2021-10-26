@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 //  Short commands(windows/visual studio community):
-/*  
+/*
     Indentation: Mark several lines and TAB to move to right, SHIFT+TAB to move to left.
     Comment multiple lines. Mark, CTRL+K then CTRL+C.
 */
