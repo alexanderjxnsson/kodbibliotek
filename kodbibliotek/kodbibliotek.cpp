@@ -15,7 +15,7 @@ int numberGenerator(int a)
 }
 void oneDArray()
 {
-    printf("1D Array\n");
+    printf("One dimensional array\n");
     int array1D[5]{ 1, 2, 3, 4, 5 };
     for (size_t i = 0; i < 5; i++)
     {
@@ -25,7 +25,7 @@ void oneDArray()
 }
 void twoDArray()
 {
-    printf("\n2D Array\n");
+    printf("\nTwo dimensional array\n");
     int array2D[2][5] = {
         {1, 2, 3, 4, 5},  //Row 0
         {6, 7, 8, 9, 10}    //Row 1
@@ -39,7 +39,7 @@ void twoDArray()
     }
 }
 void threeDArray() {
-    printf("\n3D Array\n");
+    printf("\nThree dimensional array\n");
     int array3D[3][3][3] =
     {
         {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}},                 //Row 0
@@ -70,7 +70,7 @@ int main() {
     */
     int randomNum = 0;
     randomNum = numberGenerator(randomNum);
-    cout << randomNum << endl;
+    cout << "This is the random number: " << randomNum << endl;
     /*
     * 1D array
     */
